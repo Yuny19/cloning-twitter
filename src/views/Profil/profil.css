@@ -1,0 +1,59 @@
+.profil{
+    flex: 0.7;
+}
+.info-header{
+    width: 70%;
+}
+.img-header{
+    width: 100%;
+    height: 400px;
+    margin-left: 5%;
+}
+
+.img-profil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    margin-left: 26%;
+    left: 0;
+    top:50%;
+}
+
+.btn-edit {
+    position: absolute;
+    top: 57%;
+    left: 60%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.info-profil{
+    text-align: left;
+    margin-left: 5%;
+    width: 70%;
+    margin-bottom: 10px;
+    border-bottom: 5px solid rgb(223, 223, 224);
+}
+
+.info-profil h2{
+    margin-bottom: 0;
+}
+
+.username{
+    color: gray;
+    font-weight: 600;
+    margin-top:0;
+}
+
+.info-post{
+    width: 70%;
+    margin-left: 5%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .info-post{
+        margin: 0;
+    }
+}

@@ -1,0 +1,51 @@
+.container {
+    flex: 1;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 50% 50%;
+}
+
+.picture {
+    background-image: url('../../assets/images/twitter-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin-top: 50%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.form-landing {
+    font-weight: bold;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.form-landing img {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .form-landing{
+        font-size: 12px;
+    }
+
+    .content{
+        font-size: 12px;
+    }
+}
