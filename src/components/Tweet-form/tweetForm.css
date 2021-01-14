@@ -54,3 +54,24 @@ label:hover{
     font-size: 18px;
     height: fit-content;
 }
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .tweet-form{
+        width: 50%;
+    }
+
+    .btn-tweet{
+        font-size: 10px;
+    }
+
+    .tweet-input img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .tweet-input textarea {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+}

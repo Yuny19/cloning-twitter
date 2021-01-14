@@ -30,4 +30,7 @@
     .sidebar-icon {
         margin-left: 10px;
     }
+    .btn-sidebar{
+        font-size: 8px;
+    }
 }
